@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class EjerciciosTema4 {
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);	
 		
 		System.out.println("Introduce un numero");
 		int numeroif = scanner.nextInt();
@@ -57,6 +57,8 @@ public class EjerciciosTema4 {
 			System.out.println(estacion + "no es una estacion");			
 			break;
 		}
-	}
+		
+		scanner.close();
+	}	
 
 }
