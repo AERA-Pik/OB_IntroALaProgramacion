@@ -1,21 +1,6 @@
-package tema8;
+package tema9;
 
-public class Main {
-	
-	public static void main(String[] args) {
-		
-		Persona persona1 = new Persona();
-		
-		persona1.setEdad(27);
-		persona1.setNombre("Aaron Ramirez");
-		persona1.setTelefono("5512345678");
-		
-		System.out.println(persona1.toString());		
-	}
-}
-
-class Persona {
-	
+public class Persona {	
 	private int edad;
 	private String nombre;
 	private String telefono;	
